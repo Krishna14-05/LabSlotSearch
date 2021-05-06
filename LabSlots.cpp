@@ -141,7 +141,7 @@ void import_data()
 
     if(!fin)
     {
-        cout<<"Error! Can not open file";
+        cout<<"Error! Can not open the file you requestd"<<endl;
         return;
     }
     fin.seekg(0);
