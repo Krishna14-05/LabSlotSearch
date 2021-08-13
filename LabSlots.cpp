@@ -239,7 +239,7 @@ void insert()
     i=p[0];
     if(s[i].check==1)
     {
-        cout<<"Already exitsts!";
+        cout<<"Already exitsts !";
         return;
     }
     cout<<i;
@@ -254,11 +254,11 @@ void delete_data()
 {
     char build[4];
     int num,slt,*p,i;
-    cout<<"Enter the building\t: ";
+    cout<<"Enter the Building\t: ";
     cin>>build;
-    cout<<"Enter class number\t:";
+    cout<<"Enter class Number\t:";
     cin>>num;
-    cout<<"Enter the lab slot\t: ";
+    cout<<"Enter the Lab Slot\t: ";
     cin>>slt;
 
     p=index(build,num,slt);
