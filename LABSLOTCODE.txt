@@ -26,7 +26,7 @@ struct slot
     int slot;
 };
 
-//char passc[8]="qwertyui",useridc[20]="Krishna";
+//char k passc[8]="qwertyui",useridc[20]="Krishna";
 struct slot s[500];
 
 int main()
